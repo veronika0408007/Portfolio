@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronikas Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#about">Par mani</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Kontakti</a>
+    </nav>
+    <section id="intro" class="frame white-bg">
+        <h1>Hi, es esmu Veronika! Es darbojos kā programmētāja) </h1>
+    </section>
+    <section id="about" class="frame darkgreen-bg">
+        <div class="text">
+            <h2>Par mani</h2>
+            <p>Es programmēju </p>
+        </div>
+        <img src="MyPhoto1.jpg" alt="Mana bilde" class="profile-pic">
+    </section>
+    <section id="portfolio" class="frame white-bg">
+        <div class="text">
+            <h2>Portfolio</h2>
+            <p>X un O</p>
+            <a href="github repo">Apskatīt projektu</a>
+        </div>
+        <img src="TicTac.png" alt="Projekta bilde">
+    </section>
+    <section id="contact" class="frame darkgreen-bg">
+        <h2>Kontakti</h2>
+        <form action="https://formspree.io/f/xdkoarpb" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ievadiet savu e-pasta adresi" required>
+            <label for="message">Ziņa:</label>
+            <textarea id="message" name="message" placeholder="Ievadiet savu ziņojumu" required></textarea>
+            <!-- Google reCAPTCHA v2 -->
+            <div class="g-recaptcha" data-sitekey="6LcY5G8qAAAAAOesTeeSFqqfETFDJmyUtio9J6Km"></div>
+            <button type="submit">Sūtīt</button>
+        </form>
+    </section>
+</body>
+</html>
