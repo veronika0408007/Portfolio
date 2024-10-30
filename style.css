@@ -48,6 +48,7 @@ h1, h2 {
 #about .text {
     max-width: 500px;
     padding: 0 20px;
+    text-align: left;
 }
 #about h2 {
     font-weight: bold;
