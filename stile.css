@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.navbar {
+    background-color: #003300; 
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    min-height: 500px;
+}
+.white-bg {
+    background-color: #ffffff;
+}
+.darkgreen-bg {
+    background-color: #003300;
+    color: #fff;
+}
+h1, h2 {
+    font-weight: bold;
+    color: #003300;
+}
+#intro h1 {
+    font-size: 36px;
+    color: #003300;
+    text-align: center;
+}
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+#about .text {
+    max-width: 500px;
+    padding: 0 20px;
+}
+#about h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+}
+#about p {
+    font-weight: 300;
+    color: #e0e0e0;
+}
+#about img {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#portfolio .text {
+    max-width: 500px;
+    padding-right: 20px;
+}
+#portfolio h2 {
+    font-weight: bold;
+    color: #003300;
+}
+#portfolio p {
+    font-weight: 300;
+    color: #333;
+}
+#portfolio img {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+#contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact h2 {
+    font-weight: bold;
+    color: #fff;
+}
+#contact form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact label {
+    font-weight: bold;
+    color: #003300;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#contact button {
+    background-color: #003300;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#contact button:hover {
+    background-color: #001900;
+}
+/* reCAPTCHA */
+.g-recaptcha {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: #003300;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #001900;
+}
+@media (max-width: 768px) {
+    .frame {
+        flex-direction: column;
+        text-align: center;
+    }
+    #about img,
+    #portfolio img {
+        margin: 20px 0;
+    }
+}
